@@ -2,14 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Hello from './components/hello';
+// import Hello from './components/hello';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Hello name="Baptiste" nickname="Rowenda"/>
-    <Hello name="Spongebob" nickname="squarepants" />
+    <App/>
   </React.StrictMode>
 );
 
